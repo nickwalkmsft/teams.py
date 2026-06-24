@@ -13,14 +13,7 @@ class StripMentionsTextOptions:
     """Options for stripping mentions from text"""
 
     def __init__(self, account_id: Optional[str] = None, tag_only: bool = False):
-        """
-        Args:
-            account_id: The account to remove mentions for.
-                       By default, all at-mentions listed in `entities` are removed.
-            tag_only: When `True`, the inner text of the tag will not be removed.
-                     Eg. input: Hello <at>my-bot</at>! How are you?
-                     output: Hello my-bot! How are you?
-        """
+        """test"""
         self.account_id = account_id
         self.tag_only = tag_only
 
